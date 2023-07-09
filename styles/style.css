@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+
+    padding: 150px 0px 150px 0px;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.header-side {
+    margin-left: 60%;
+    margin-right: 230px;
+    width: 35%;
+
+
+}
+
+.title {
+    color: #FFF;
+    text-align: right;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.details {
+    color: #FFF;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-right: 5px;
+    margin-top: 10px;
+
+}
+
+.btn-contact {
+    margin-left: 69%;
+    color: #005FAC;
+    text-align: right;
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.previous-years {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.failurs {
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 150px;
+
+}
+
+.failurs-title {
+    display: flex;
+    width: 288px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.failures-details {
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.one {
+    margin: 5px 5px;
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.plans {
+    text-align: center;
+}
+
+.all-plans {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gredient-img {
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-size: cover, cover;
+    padding: 100px 0px;
+}
+
+.positivness {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 459px;
+    margin-left: 64px;
+}
+
+.call-btn {
+    border-radius: 5px;
+    background: #FFF;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 64px;
+}
+.footer-con{
+    display: flex;
+    justify-content: space-between;
+    height: 577px;
+    flex-shrink: 0;
+    background: #151414;
+    color: white;
+    gap: 50%;
+}
